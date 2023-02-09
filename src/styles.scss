@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.highlights-banners-container {
+  background-color: #4e2a81;
+}
+
+.highlights-banners:before {
+  background: linear-gradient( to right, #4e2a81 10%, rgba(78, 42, 129, 0) 100%);
+}
+
+.highlights-banners:after {
+  background: linear-gradient( to left, #4e2a81 10%, rgba(78, 42, 129, 0) 100%);
+}
+
+.highlights-banners-block {
+  color: #ffffff;
+}
+
+.highlights-banners-icon {
+  color: #ffffff;
+}
